@@ -1,7 +1,5 @@
 FROM --platform=linux/x86_64 alpine
 
-# docker run --platform linux/x86_64 --rm -ti -v $(pwd):/code alpine:3.19 sh
-
 RUN apk update
 RUN apk add curl gcc g++ git gmp-dev libc-dev libffi-dev make musl-dev ncurses-dev perl tar xz zlib zlib-dev zlib-static
 
