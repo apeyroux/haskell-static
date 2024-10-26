@@ -1,7 +1,7 @@
 FROM --platform=linux/x86_64 alpine
 
 RUN apk update
-RUN apk add curl gcc g++ git gmp-dev libc-dev libffi-dev make musl-dev ncurses-dev perl tar xz zlib zlib-dev zlib-static
+RUN apk add curl gcc g++ git gmp-dev libc-dev libffi-dev make musl-dev ncurses-dev perl tar xz zlib zlib-dev zlib-static libpq-dev
 
 USER root
 
